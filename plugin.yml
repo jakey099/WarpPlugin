@@ -1,0 +1,9 @@
+name: WarpGUI
+version: 1.0
+author: Jakey099
+main: me.jakey.warpgui.Main
+description: WarpGUI for a creative server
+
+commands:
+  warp:
+    description: this is a warp command
