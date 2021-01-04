@@ -19,7 +19,6 @@ public class InventoryClick implements Listener
 	public InventoryClick(Main plugin)
 	{
 		this.plugin=plugin;
-		
 		Bukkit.getPluginManager().registerEvents(this, plugin);
 	}
 	

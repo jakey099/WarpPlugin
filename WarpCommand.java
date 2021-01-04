@@ -1,5 +1,6 @@
 package me.jakey.warpgui.commands;
 
+import org.bukkit.World.Environment;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -26,6 +27,11 @@ public class WarpCommand implements CommandExecutor{
 			return true;
 		}
 		Player p = (Player) sender;
+		if(p.getWorld().getName().equalsIgnoreCase("world"))
+		{
+			sender.sendMessage("You must be in the Overworld to execute this command!");
+			return true;
+		}
 		p.openInventory(HomeWarpUI.GUI(p));
 		return true;
 	}

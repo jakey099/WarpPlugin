@@ -1,3 +1,309 @@
-firstjoin_message: '&a<player> &7is about to witness the horrors of this server for the first time'
-join_message: '&e<player> &7has returned to this abomination of a server'
-leave_message: '&e<player> &7has left this war crime of a server'
+GameMaps:
+  materialString: 'note_block'
+  amount: 1
+  invSlot: 11
+  displayName: '&9&lGame Maps'
+FinishedBuilds:
+  materialString: 'workbench'
+  amount: 1
+  invSlot: 14
+  displayName: '&a&lFinished Builds'
+WIP:
+  materialString: 'dead_bush'
+  amount: 1
+  invSlot: 17
+  displayName: '&4&lW.I.P.'
+
+
+CorruptedVillage:
+  materialString: 'red_nether_brick'
+  amount: 1
+  invSlot: 31
+  displayName: '&b&lCorrupted Village'
+  world: 'world'
+  x: 1226
+  y: 69
+  z: -315
+Normandy:
+  materialString: 'sand'
+  amount: 1
+  invSlot: 32
+  displayName: "&1&lNormandy"
+  world: 'world'
+  x: 8685
+  y: 41
+  z: 6578
+NoahHole:
+  materialString: 'lava_bucket'
+  amount: 1
+  invSlot: 33
+  displayName: '&8&lNoah Hole'
+  world: 'world'
+  x: 7348
+  y: 96
+  z: 10323
+Wendys:
+  materialString: 'concrete'
+  amount: 1
+  byte: 14
+  invSlot: 17
+  displayName: '&4&lWendys'
+  world: 'world'
+  x: 1790
+  y: 78
+  z: 29
+AnimalPen:
+  materialString: 'light_blue_shulker_box'
+  amount: 1
+  invSlot: 16
+  displayName: '&9&lAnimal Playpen'
+  world: 'world'
+  x: 1480
+  y: 98
+  z: -193
+RedSandTemple:
+  materialString: 'red_sandstone'
+  amount: 1
+  byte: 2
+  invSlot: 15
+  displayName: '&6&lRed Sand Temple'
+  world: 'world'
+  x: 7260
+  y: 87
+  z: 9090
+SimsTree:
+  materialString: 'stained_glass'
+  amount: 1
+  byte: 5
+  invSlot: 11
+  displayName: "&a&lSims Tree"
+  world: 'world'
+  x: 882
+  y: 64
+  z: -238
+Flinnyville:
+  materialString: 'brick'
+  amount: 1
+  invSlot: 12
+  displayName: '&c&lFlinnyville'
+  world: 'world'
+  x: 1724
+  y: 81
+  z: -8
+FortTown:
+  materialString: 'stone'
+  amount: 1
+  byte: 5
+  invSlot: 13
+  displayName: '&5&lFort Town'
+  world: 'world'
+  x: 3890
+  y: 67
+  z: 2209
+
+  
+Zoo:
+  materialString: 'iron_fence'
+  amount: 1
+  invSlot: 11
+  displayName: '&a&lThe Zoo'
+  world: 'world'
+  x: 8210
+  y: 51
+  z: 10086
+FarmingTown:
+  materialString: 'crops'
+  amount: 1
+  invSlot: 12
+  displayName: '&2&lFarming Town'
+  world: 'world'
+  x: 9592
+  y: 50
+  z: 11377
+MiningTown:
+  materialString: 'gold_ore'
+  amount: 1
+  invSlot: 13
+  displayName: '&e&lMining Town'
+  world: 'world'
+  x: 7234
+  y: 124
+  z: 8757
+ObamaPagoda:
+  materialString: 'log'
+  amount: 1
+  byte: 3
+  invSlot: 15
+  displayName: '&3&lObama Pagoda'
+  world: 'world'
+  x: 2761
+  y: 98
+  z: 759
+MurderLobby:
+  materialString: 'iron_sword'
+  amount: 1
+  invSlot: 16
+  displayName: '&4&lMurder Mystery Lobby'
+  world: 'world'
+  x: 1645
+  y: 45
+  z: 237
+Tennis:
+  materialString: 'slime_ball'
+  amount: 1
+  invSlot: 17
+  displayName: '&9&lTennis'
+  world: 'world'
+  x: 1360
+  y: 86
+  z: -313
+  
+  
+Mansion:
+  materialString: 'quartz_block'
+  amount: 1
+  byte: 3
+  invSlot: 11
+  displayName: '&e&lMansion'
+  lore: '&9&oHide and Seek'
+  world: 'world'
+  x: 1457
+  y: 64
+  z: -5
+Monument:
+  materialString: 'prismarine'
+  amount: 1
+  byte: 1
+  invSlot: 12
+  displayName: '&3&lMonument'
+  lore: '&9&oHide and Seek'
+  world: 'world'
+  x: 688
+  y: 40
+  z: 635
+Spaceship:
+  materialString: 'concrete' 
+  amount: 1
+  byte: 5
+  invSlot: 13
+  displayName: '&a&lSpaceship'
+  lore: '&9&oHide and Seek'
+  world: 'world'
+  x: 2266
+  y: 126
+  z: 927
+DesertRuins:
+  materialString: 'sandstone'
+  amount: 1
+  byte: 1
+  invSlot: 14
+  displayName: '&e&lDesert Ruins'
+  lore: '&4&oMurder Mystery'
+  world: 'world'
+  x: 3242
+  y: 77
+  z: -532
+Caves:
+  materialString: 'mossy_cobblestone'
+  amount: 1
+  invSlot: 15
+  displayName: '&8&lCaves'
+  lore: '&4&oMurder Mystery'
+  world: 'world'
+  x: 1425
+  y: 53
+  z: -83
+TheMines:
+  materialString: 'diamond_ore'
+  amount: 1
+  invSlot: 16
+  displayName: '&b&lThe Mines'
+  lore: '&4&oMurder Mystery'
+  world: 'world'
+  x: 10523
+  y: 93
+  z: 7045
+PortTown:
+  materialString: 'wool'
+  amount: 1
+  byte: 14
+  invSlot: 17
+  displayName: '&c&lPort Town'
+  lore: '&4&oMurder Mystery'
+  world: 'world'
+  x: 1617
+  y: 75
+  z: 211
+NetherRun:
+  materialString: 'netherrack'
+  amount: 1
+  invSlot: 29
+  displayName: '&4&lNether Run'
+  lore: '&2&oDeath Run'
+  world: 'world'
+  x: 1271
+  y: 56
+  z: -148
+CliffsideRun:
+  materialString: 'grass'
+  amount: 1
+  invSlot: 30
+  displayName: '&7&lCliffside Run'
+  lore: '&2&oDeath Run'
+  world: 'world'
+  x: 1210
+  y: 50
+  z: -158
+SpleefArena:
+  materialString: 'diamond_spade'
+  amount: 1
+  invSlot: 31
+  displayName: '&6&lSpleef Arena'
+  lore: '&6&oSpleef'
+  world: 'world'
+  x: 1623
+  y: 80
+  z: 160
+ClassicArena:
+  materialString: 'concrete'
+  amount: 1
+  byte: 7
+  invSlot: 32
+  displayName: '&1&lClassic Arena'
+  lore: '&5&oCapture the Flag'
+  world: 'world'
+  x: 1197
+  y: 49
+  z: -55
+WinterCastle:
+  materialString: 'snow_block'
+  amount: 1
+  invSlot: 33
+  displayName: '&f&lWinter Castle'
+  lore: '&5&oCapture the Flag'
+  world: 'world'
+  x: 12245
+  y: 82
+  z: 12470
+Settlement:
+  materialString: 'wood'
+  amount: 1
+  byte: 4
+  invSlot: 34
+  displayName: '&9&lSettlement'
+  lore: '&4&oMurder Mystery'
+  world: 'world'
+  x: 7437
+  y: 52
+  z: 7200
+Cathedral:
+  materialString: 'smooth_stairs'
+  amount: 1
+  invSlot: 35
+  displayName: '&d&lCathedral'
+  loreA: '&9&oHide and Seek'
+  loreB: '&4&oMurder Mystery'
+  world: 'world'
+  x: 9149
+  y: 57 
+  z: 10104
